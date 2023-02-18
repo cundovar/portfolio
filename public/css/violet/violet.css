@@ -1,0 +1,119 @@
+
+
+
+
+.h {
+    font-weight: 700;
+    font-family: 'Lexend Deca', sans-serif;
+    /* font-family: 'Overpass', sans-serif; */
+}
+
+.container2 {
+    position: absolute;
+    display: flex;
+    background-color: rgb(97, 84, 109);
+    padding: 0;
+    /* width: 80%; */
+    width: 1080px;
+    height: 446px;
+    justify-content: flex-end;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.text1,
+.photo {
+    width: 50%;
+}
+
+.text1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    background-color: rgb(38, 25, 67);
+
+}
+
+.photo {
+    background-color: rgb(89, 11, 113);
+}
+
+.number1 {
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px yellow; */
+    width: 100%;
+
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /* border: solid black 1px; */
+    /* text-align: center; */
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(159, 159, 159);
+    
+    
+    
+}
+.number1 strong{
+    color: aliceblue;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.trr {
+    opacity: 0.5;
+}
+
+.pp {
+    text-align: justify;
+    /* font-family: Lexend Deca ; */
+    /* font-weight: 400; */
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(159, 159, 159);
+
+
+}
+
+.text h1 span {
+    color: blueviolet;
+}
+@media(max-width:768px) {
+    .container2{
+        flex-direction: column;
+        /* width: 250%;/ */
+        /* margin-top: 70rem; */
+        width: 100%;
+        margin: auto;
+        /* position: relative;/ */
+        top: 10rem;
+
+    }
+    .text1{
+        /* padding: 50px; */
+        /* padding-right: 200px; */
+    }
+    /* .number1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    .text1
+ {
+    width: 100%;
+    height: 50px;
+
+}
+.photo{
+    display: none;
+}
+}

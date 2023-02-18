@@ -1,0 +1,38 @@
+section {
+    padding: 10px 0 0 0;
+    margin: 0 !important;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+.col-md-4 hr{
+    width: 20rem;
+   
+    border-top: solid 1px #8A8A8A;
+}
+
+@media(min-width:768px) {
+    /* section {
+        padding: 150px 0;
+    } */
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+.service-heading strong{
+    font-weight: 800;
+}

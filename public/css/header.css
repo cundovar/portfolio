@@ -1,0 +1,188 @@
+header {
+    text-align: start;
+    color: rgb(213, 213, 213);
+    
+    /* background-attachment: scroll;/ */
+    background-image:linear-gradient(rgb(225, 11, 11), rgb(35, 7, 74));
+    /* background-image: url('/images/nuit.jpg'); */
+    /* background-image: url('/images/WALL.jpg');/ */
+    /* opacity: 0.5; */
+    /* /background: url('/images/image2.jpg') top left, url('/images/image3.jpg') top center, url('/images/image1.jpg') top right; */
+    /* background-blend-mode: saturation; */
+    background-position: center center;
+    background-repeat: none;
+    
+    /* background-color: rgb(95, 76, 76); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+#dev{
+  
+    font-size: 30px !important;
+    font-weight: 400;
+    text-align: center;
+   
+}
+
+header .intro-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    position: relative;
+    /* margin-right: 3rem; */
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    width: 30%;
+}
+header .intro-text .intro-heading {
+   
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:clamp(40px, 8vw, 80px) !important ;
+    font-weight: 400;
+    line-height: 50px;
+   
+}
+
+
+  #container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
+  }
+  .intro-text p{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+   .testt{
+    text-align: center;
+   }
+  #testt{
+    padding: 20px 40px 20px 40px;
+    transition: .6s;
+    /* float: right;§ */
+    /* margin-right: 50%; */
+
+    
+   
+  }
+  #text{
+    /* margin-top: 2rem; */
+    width: 90%;
+    /* height: 300px; */
+    /* height: 70%; */
+    /* border: solid 1px yellow; */
+    /* margin-bottom: 5rem; */
+    padding: 5rem;
+  }
+
+  .fotoMoi{
+    width: 50%;;
+    /* height: 500px;/ */
+    background-color: aqua;
+    margin-top: 10rem;
+    background-image: url('../images/moi.jpg');
+    background-position: center;
+    background-size: cover;
+   display: flex;
+   flex-direction: row-reverse;
+   /* transition: .9s;/ */
+    /* z-index: 999; */
+    
+    /* display: inline-block; */
+  }
+
+ .logo .fa-brands{
+  align-items: flex-end;
+  justify-content: end;
+    margin: 1rem 2rem 0 2rem;
+    color: rgb(50, 49, 49);
+    
+ }
+.fa-brands{
+    font-size: 2em
+}
+
+
+  .fa-brands .fa-linkedin{
+    width: 10px;
+    height: 10px;
+  }
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 100px;
+        padding-bottom: 200px;
+       
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+   
+   
+   
+   
+   
+   
+   
+   
+}
+@media (max-width:767px) {
+    #container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    header .intro-text{
+        width: 100%;
+    }
+    .fotoMoi{
+        width: 75%;
+    }
+    .pres{
+      margin: 0 !important;
+      
+    }
+    #dev{
+  
+      font-size: 20px;
+      font-weight: 400;
+     
+     
+  }
+  #text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+      
+    
+}

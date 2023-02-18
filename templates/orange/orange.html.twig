@@ -1,0 +1,291 @@
+
+
+{% block body %}
+
+<link rel="stylesheet" href="{{ asset('css/orange/orange.css') }}">
+
+    <!-- Hero Section -->
+    <div>
+    <div class="hero"id="hero">
+      <img
+        class="hero__img"
+        src="/images/bg-pattern-intro.svg"
+        alt="hero background"
+      />
+      <div class="hero__wrapper">
+        <!-- Header Containing The Nav -->
+        <header>
+          <nav>
+            <div class="hero__logo">
+              <a href=""><img src="/images/orange/images/logo.svg" alt="Blogr logo" /></a>
+            </div>
+
+            <a href="#" class="hero__menu show-on-mobile">
+              <img src="/images/orange/images/icon-hamburger.svg" alt="hamburger-icon" />
+            </a>
+
+            <ul class="nav">
+              <!-- Menu Item 1 -->
+              <li class="nav-item">
+                <a href="#"
+                  >Product
+                  <img src="/images/orange/images/icon-arrow-light.svg" alt="arrow" />
+                </a>
+                <ul class="dropdown">
+                  <li class="dropdown__item"><a href="#">Overview</a></li>
+                  <li class="dropdown__item"><a href="#">Pricing</a></li>
+                  <li class="dropdown__item"><a href="#">Marketplace</a></li>
+                  <li class="dropdown__item"><a href="#">Features</a></li>
+                  <li class="dropdown__item"><a href="#">Integrations</a></li>
+                </ul>
+              </li>
+
+              <!-- Menu Item 2 -->
+              <li class="nav-item">
+                <a href="#"
+                  >Company
+                  <img src="/images/orange/images/icon-arrow-light.svg" alt="arrow" />
+                </a>
+                <ul class="dropdown">
+                  <li class="dropdown__item"><a href="#">About</a></li>
+                  <li class="dropdown__item"><a href="#">Team</a></li>
+                  <li class="dropdown__item"><a href="#">Blog</a></li>
+                  <li class="dropdown__item"><a href="#">Career</a></li>
+                </ul>
+              </li>
+
+              <!-- Menu Item 3 -->
+              <li class="nav-item">
+                <a href="#"
+                  >Connect <img src="/images/orange/images/icon-arrow-light.svg" alt="arrow"
+                /></a>
+                <ul class="dropdown">
+                  <li class="dropdown__item"><a href="#">Contact</a></li>
+                  <li class="dropdown__item"><a href="#">Newsletter</a></li>
+                  <li class="dropdown__item"><a href="#">LinkedIn</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="cta-buttons">
+              <a href="{{path('acceuil')}}" class="button button--transparent">retour acceuil</a>
+              <a href="#" class="button button--filled">Sign up</a>
+            </div>
+          </nav>
+        </header>
+        <div class="primary-content">
+          <!-- Texts Description -->
+          <div class="hero__text">
+            <h1 class="hero__title">A modern publishing platform</h1>
+            <p class="hero__description">
+              Grow your audience and build your online brand
+            </p>
+          </div>
+          <!-- CTA Buttons -->
+          <div class="hero__btn">
+            <a href="#" class="button button--filled"> Start for Free </a>
+            <a href="#" class="button button--transparent">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile__menu">
+      <ul class="menu__items">
+        <!-- Menu Item 1 -->
+        <li class="menu__item product">
+          <a href="#"
+            >Product <img src="/images/orange/images/icon-arrow-dark.svg" alt="arrow"
+          /></a>
+          <ul class="submenu product-menu">
+            <li class="submenu__item"><a href="#">Overview</a></li>
+            <li class="submenu__item"><a href="#">Pricing</a></li>
+            <li class="submenu__item"><a href="#">Marketplace</a></li>
+            <li class="submenu__item"><a href="#">Features</a></li>
+            <li class="submenu__item"><a href="#">Integrations</a></li>
+          </ul>
+        </li>
+
+        <!-- Menu Item 2 -->
+        <li class="menu__item company">
+          <a href="#"
+            >Company
+            <img src="/images/orange/images/icon-arrow-dark.svg" alt="arrow" />
+          </a>
+          <ul class="submenu company-menu">
+            <li class="submenu__item"><a href="#">About</a></li>
+            <li class="submenu__item"><a href="#">Team</a></li>
+            <li class="submenu__item"><a href="#">Blog</a></li>
+            <li class="submenu__item"><a href="#">Career</a></li>
+          </ul>
+        </li>
+
+        <!-- Menu Item 3 -->
+        <li class="menu__item connect">
+          <a href="#"
+            >Connect <img src="/images/orange/images/icon-arrow-dark.svg" alt="arrow"
+          /></a>
+          <ul class="submenu connect-menu">
+            <li class="submenu__item"><a href="#">Contact</a></li>
+            <li class="submenu__item"><a href="#">Newsletter</a></li>
+            <li class="submenu__item"><a href="#">LinkedIn</a></li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <div class="menu__login">
+        <a href="#">Login</a>
+      </div>
+      <a href="#" class="button menu__button">Sign Up</a>
+    </div>
+
+    <!-- Future Section -->
+    <section class="future">
+      <div class="future__wrapper">
+        <h2 class="future__title">Designed for the future</h2>
+        <div class="future__img"></div>
+        <div class="future__infos">
+          <div class="future__info">
+            <h2 class="future__title">Introducing an extensible editor</h2>
+            <p class="future__desc">
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+          <div class="future__info">
+            <h2 class="future__title">Robust content management</h2>
+            <p class="future__desc">
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- State of the arts section -->
+    <section class="infrastructure">
+      <div class="infrastructure__wrapper">
+        <div class="floating-img">
+          <img
+            src="/images/orange/images/illustration-phones.svg"
+            alt="phone illustration"
+          />
+        </div>
+        <div class="text">
+          <h2 class="infrastructure__title">State of the Art Infrastructure</h2>
+          <p class="infrastructure__desc">
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="benefits__wrapper">
+        <div class="benefits__img">
+          <img
+            src="/images/orange/images/illustration-laptop-mobile.svg"
+            class="mobile"
+            alt="laptop illustration"
+          />
+          <img
+            src="/images/orange/images/illustration-laptop-desktop.svg"
+            class="desktop"
+            alt="laptop illustration"
+          />
+        </div>
+        <div class="benefits__features">
+          <div class="benefits__feature">
+            <h2 class="benefits__title">Free, open, simple</h2>
+            <p class="benefits__desc">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div class="benefits__feature">
+            <h2 class="benefits__title">Powerful tooling</h2>
+            <p class="benefits__desc">
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__logo">
+          <img src="/images/orange/images/logo.svg" alt="logo" />
+        </div>
+        <div class="footer__links">
+          <h2 class="footer__links--title">Product</h2>
+          <a href="#" class="footer__link">Overview</a>
+          <a href="#" class="footer__link">Pricing</a>
+          <a href="#" class="footer__link">Marketplace</a>
+          <a href="#" class="footer__link">Features</a>
+          <a href="#" class="footer__link">Integrations</a>
+        </div>
+        <div class="footer__links">
+          <h2 class="footer__links--title">Company</h2>
+          <a href="#" class="footer__link">About</a>
+          <a href="#" class="footer__link">Team</a>
+          <a href="#" class="footer__link">Blog</a>
+          <a href="#" class="footer__link">Careers</a>
+        </div>
+        <div class="footer__links">
+          <h2 class="footer__links--title">Connect</h2>
+          <a href="#" class="footer__link">Contact</a>
+          <a href="#" class="footer__link">Newsletter</a>
+          <a href="#" class="footer__link">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+    </div>
+
+
+    <script >
+    const burgerButton = document.querySelectorAll('.burger-button ');
+// const burgerButton1 = document.querySelector('.burger-button1');
+// const burgerButton2 = document.querySelector('.burger-button2');
+
+console.log(burgerButton)
+
+const burgerLenght = burgerButton.length
+// const returnbtn = document.querySelectorAll('[data-return]')
+console.log(burgerLenght)
+
+const nav = document.querySelector('.navigation');
+console.log(nav)
+burgerButton.addEventListener('click', showHideMenu);
+function showHideMenu() {
+
+    for (i = 0; i < burgerLenght; i++) {
+        
+
+                if (burgerButton[i].style.display === "none") {
+                    nav.style.display = "flex";
+                    //  nav.style.display = "none";
+                    //  nav.style.display = "none";
+                } else {
+                    nav.style.display = "none";
+                }
+
+            }
+        }
+    
+    </script>
+{% endblock %}

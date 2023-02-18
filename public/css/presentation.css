@@ -1,0 +1,113 @@
+
+
+.presentation{
+    display: flex;
+    /* margin: 3rem 18rem 3rem 18rem;/ */
+    /* justify-content: space-around; */
+    width: 60%;
+    /* margin-top: 8rem; */
+    margin: 5rem auto ;
+    padding-top: 8rem;
+    /* position: relative; */
+    
+   
+}
+
+.fotoPresentation{
+    width: 50%;
+    /* border:solid 2px red;/ */
+    margin-left: 1rem;
+    /* position: relative; */
+}
+.textPresent{
+    width: 55%;
+    margin-right: 1rem;
+    text-align: justify;
+    /* border: solid 1px wheat; */
+    padding: 10px;
+    border-radius: 5px;
+    /* box-shadow:0px 0px 7px 20px grey; */
+}
+.textPresent p{
+    color: var(--slate);
+    color: black;
+}
+.portrait{
+    width: 200px;
+    /* border: solid 2px green; */
+    /* z-index: 12; */
+    /* margin-left: 4rem;
+    margin-top: 10rem; */
+    /* background-color: var(--green); */
+    
+}
+.moiLunette{
+    width: 300px;
+    mix-blend-mode: multiply;
+    box-shadow:17px 13px 3px 2px grey;
+    border-radius: 5px;
+    margin-left: 3rem;
+    /* margin-bottom: 2rem; */
+    /* position: relative;/ */
+    /* position: absolute; */
+    /* position: relative; */
+    /* right:  7rem;
+    bottom: 4rem; */
+    /* z-index: 12; */
+}
+.bouton{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+   
+    background-color: rgb(104, 125, 217);
+    transition: .5s;
+}
+#bouton{
+    position: absolute;
+}
+.bouton:hover{
+    border: 1px solid rgb(81, 80, 80);
+    color: wheat;
+    /* box-shadow: 7px 4px 1px grey; */
+    
+}
+@media (max-width:767px) {
+    .presentation{
+       flex-wrap: wrap-reverse;
+       width: 90%;
+       margin:0 auto 6rem;
+       align-items: center;
+       justify-content: center;
+
+
+    }
+    .textPresent{
+        width: 95%;
+    }
+    .bouton{
+        align-self: center;
+        justify-self: center;
+        margin-left: 30%;
+        margin-top: 1rem;
+    }
+    .fotoPresentation{
+        width: 80%;
+        /* align-items: center; */
+        justify-content: center;
+ 
+ 
+
+    }
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;    }
+    .moiLunette{
+        margin-left: 0;
+        width: 200px;
+        margin-bottom: 2.5rem;
+
+      
+    }
+}

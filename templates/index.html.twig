@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Main2Controller!{% endblock %}
+
+{% block body %}
+
+
+ {% include "./header.html.twig" %}
+ {# {% include "./test.Haml" %} #}
+ {% include "./presentation.html.twig" %}
+ {% include "./sectionService.html.twig" %}
+ {% include "./portfolio.html.twig" %}
+ {% include "./portefolioModal.html.twig" %}
+ {# {% include "./carousel.html.twig" %} #}
+ {% include "./aboutSection.html.twig" %}
+ {% include "./contact.html.twig" %}
+ {# {% include "./contactForm.html.twig" %} #}
+ {% include "./footer.html.twig" %}
+
+
+
+
+
+    
+
+  
+
+    <!-- About Section -->
+
+
+   
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+  
+    <!-- jQuery Version 1.11.0 -->
+
+  
+
+    <!-- Contact Form JavaScript -->
+ 
+    <script>
+        
+    $(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+}); 
+
+// Highlight the top nav as scrolling occurs
+// $('body').scrollspy({
+//     target: '.navbar-fixed-top'
+// })
+
+// Closes the Responsive Menu on Menu Item Click
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+});
+
+
+ 
+
+        
+            
+           
+    </script>
+
+
+
+{% endblock %}
+
